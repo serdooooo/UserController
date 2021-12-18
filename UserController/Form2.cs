@@ -16,5 +16,15 @@ namespace UserController
         {
             InitializeComponent();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Environment.Exit(1); //formun çarpısına basınca kapanıyor
+        }
     }
 }
